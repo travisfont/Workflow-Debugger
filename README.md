@@ -27,3 +27,8 @@ Checking if an element exit for an array
 Wfr::exist($context, 'next');  // Element  $context['next'] does not exist on line 234 of FILE
 Wfr::exist($context, 'next', 'custom message here');  // this will override the above message
 ```
+
+Output for returns
+```php
+Wfr::return($value); // Outputs: $value is float:123 on FILE() on line LINE
+```
