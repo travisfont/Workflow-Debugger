@@ -21,3 +21,9 @@ class Wfr
   }
 }
 ```
+
+Checking if an element exit for an array
+```php
+Wfr::exist($context, 'next');  // Element  $context['next'] does not exist on line 234 of FILE
+Wfr::exist($context, 'next', 'custom message here');  // this will override the above message
+```
